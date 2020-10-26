@@ -1,13 +1,18 @@
 apply plugin: 'com.android.application'
 
+repositories {
+    jcenter()
+    google()
+}
+
 android {
-    compileSdkVersion 24
+    compileSdkVersion 29
     buildToolsVersion "24.0.2"
 
     defaultConfig {
         applicationId "de.dihco.android.stechuhr"
         minSdkVersion 16
-        targetSdkVersion 24
+        targetSdkVersion 29
         versionCode 17
         versionName "1.7"
     }
@@ -22,7 +27,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    //compile 'com.android.support:support-v4:22.2.0'
-    compile 'com.google.android.gms:play-services-drive:9.4.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //implementation 'com.android.support:support-v4:22.2.0'
+    implementation 'com.google.android.gms:play-services-drive:9.4.0'
 }

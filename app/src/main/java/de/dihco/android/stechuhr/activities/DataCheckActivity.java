@@ -28,7 +28,6 @@ public class DataCheckActivity extends Activity {
         ListView listview = (ListView) findViewById(R.id.lvCheck);
         final ArrayList<String> list = new ArrayList<String>();
 
-
         // ==== Ersten Tag finden ====
         Cursor cursor = StechuhrApplication.getHelper().getFirstEvent();
 
