@@ -23,7 +23,12 @@ Die Entwicklung verfolgt zwei Ziele, einerseits eine einfache App zum Erfassen v
 - Lesen und Schreiben im Speichern --> Benötigt für das Erstellen und Einlesen von lokalen Backups
 
 ## IMPRESSUM
-Martin Wegner Oststr. 30 99086 Erfurt Deutschland 0170/2303733 support@dihco.de<
+Martin Wegner 
+Oststr. 30 
+99086 Erfurt 
+Deutschland 
+0170/2303733 
+support@dihco.de
 
 ## DATENSCHUTZERKLÄRUNG
 Es werden keine Daten des Nutzer automatisch an die Entwickler der App oder dritte Parteien gesendet.
